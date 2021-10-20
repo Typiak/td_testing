@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="MW14" name="testOrange" skipped="0" tests="3" time="0.107" timestamp="2021-10-20T13:17:08">
+<testsuite errors="0" failures="0" hostname="MW14" name="testOrange" skipped="0" tests="3" time="0.087" timestamp="2021-10-20T14:35:24">
   <properties>
     <property name="ant.project.invoked-targets" value="tests" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
@@ -31,7 +31,7 @@
     <property name="os.name" value="Windows 10" />
     <property name="ant.home" value="C:\opt\apache-ant-1.9.10" />
     <property name="sun.jnu.encoding" value="Cp1252" />
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\anaconda3-5.2.0;C:\anaconda3-5.2.0\Library\mingw-w64\bin;C:\anaconda3-5.2.0\Library\usr\bin;C:\anaconda3-5.2.0\Library\bin;C:\anaconda3-5.2.0\Scripts;C:\opt\Python36-32\Scripts\;C:\opt\Python36-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\opt\apache-ant-1.9.10\bin;C:\opt\nodejs\node_modules\npm;C:\Program Files\Git\cmd;C:\opt\Ruby25-x64\bin;C:\Program Files\GitHubDesktop\bin;C:\Program Files\atom\bin;C:\Program Files (x86)\Bitvise SSH Client;C:\opt\glassfish5\bin;C:\Program Files\jEdit;C:\opt\apache-jmeter-4.0\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\opt\play-java-starter-example\sbt-dist\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Rational\common;C:\opt\apache-maven-3.5.3\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk-11.0.8\bin;C:\opt\MinGW\bin;C:\Windows\System32\OpenSSH\;C:\opt\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\orsys\AppData\Local\Microsoft\WindowsApps;C:\Users\orsys\AppData\Local\Microsoft\WindowsApps;C:\Users\orsys\AppData\Roaming\npm;C:\Users\orsys\Downloads\outils-20211018T091523Z-001\outils\outils\outils\sonar-scanner-cli-4.2.0.1873-windows\sonar-scanner-4.2.0.1873-windows\bin;;." />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\anaconda3-5.2.0;C:\anaconda3-5.2.0\Library\mingw-w64\bin;C:\anaconda3-5.2.0\Library\usr\bin;C:\anaconda3-5.2.0\Library\bin;C:\anaconda3-5.2.0\Scripts;C:\opt\Python36-32\Scripts\;C:\opt\Python36-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\opt\apache-ant-1.9.10\bin;C:\opt\nodejs\node_modules\npm;C:\opt\Ruby25-x64\bin;C:\Program Files\GitHubDesktop\bin;C:\Program Files\atom\bin;C:\Program Files (x86)\Bitvise SSH Client;C:\opt\glassfish5\bin;C:\Program Files\jEdit;C:\opt\apache-jmeter-4.0\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\opt\play-java-starter-example\sbt-dist\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Rational\common;C:\opt\apache-maven-3.5.3\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk-11.0.8\bin;C:\opt\MinGW\bin;C:\Windows\System32\OpenSSH\;C:\opt\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Users\orsys\AppData\Local\Microsoft\WindowsApps;C:\Users\orsys\AppData\Local\Microsoft\WindowsApps;C:\Users\orsys\AppData\Roaming\npm;C:\Users\orsys\Downloads\outils-20211018T091523Z-001\outils\outils\outils\sonar-scanner-cli-4.2.0.1873-windows\sonar-scanner-4.2.0.1873-windows\bin;C:\Users\orsys\AppData\Local\GitHubDesktop\bin;." />
     <property name="jdk.debug" value="release" />
     <property name="java.class.version" value="55.0" />
     <property name="java.specification.name" value="Java Platform API Specification" />
@@ -68,12 +68,9 @@
     <property name="sun.cpu.isalist" value="amd64" />
   </properties>
   <testcase classname="testOrange" name="testToString" time="0.005" />
-  <testcase classname="testOrange" name="testEquals" time="0.0" />
+  <testcase classname="testOrange" name="testEquals" time="0.001" />
   <testcase classname="testOrange" name="testGetOrigin" time="0.0" />
-  <system-out><![CDATA[o1 ori = Greceo2 ori = France
-o1 ori = Greceo2 ori = Grece
-o1 ori = Greceo2 ori = Grece
-o1 ori = Franceo2 ori = Grece
+  <system-out><![CDATA[o1 ori = Greceo2 ori = Grece
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

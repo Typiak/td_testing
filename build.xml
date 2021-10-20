@@ -18,5 +18,10 @@
 			<test name="testOrange" outfile="results" />
 			<test name="testPan" outfile="results2" />
 		</junit>
+		<junitreport todir=".">
+			<fileset dir=".">
+				<include name="result*.xml" />
+			</fileset>
+		</junitreport>
 	</target>
 </project>
