@@ -37,7 +37,6 @@ public class Orange {
 	public boolean equals(Orange o2) {
 		boolean resultat=false;
 		
-		System.out.println("o1 ori = " + this.getOrigine() + "o2 ori = " + o2.getOrigine());
 		
 		if (this.getOrigine().equals(o2.getOrigine()) && this.getPrix()==o2.getPrix()) {
 			System.out.println("o1 ori = " + this.getOrigine() + "o2 ori = " + o2.getOrigine());
